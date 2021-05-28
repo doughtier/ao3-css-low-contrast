@@ -1,1 +1,177 @@
+/* mobile */
+/* twiller_mobile_design */
+div#dashboard ul {
+    display: inline;
+    position: relative;
+}
 
+div#dashboard ul,
+div#dashboard ul:nth-child(2),
+div#dashboard ul:last-child {
+    border-top: none;
+    border-bottom: none;
+    background: none;
+}
+
+div#dashboard.region {
+    border-top: 0.3em solid rgba(153, 0, 0, .9);
+    border-bottom: 0.3em solid rgba(153, 0, 0, .9);
+    background: RGBA(187, 187, 187, .65);
+}
+
+#dashboard .pseud .secondary {
+    background: RGBA(187, 187, 187, .8);
+    padding: none !important;
+    box-shadow: none !important;
+    border-bottom: .15em solid rgba(153, 0, 0, .9);
+    border-top: none;
+    border-radius: 9%;
+}
+
+div#dashboard ul:nth-child(2),
+div#dashboard ul,
+div#dashboard.region {
+    border-radius: 3%;
+}
+
+/* table tbody {
+    font-size: 85%;
+} */
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+    padding: .25em .45em;
+    border: solid thin #aaa;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+.actions a:hover,
+.actions input:hover {
+    background-image: none;
+    border-left: 0.2em solid #900;
+    border-bottom: 1px solid;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited,
+.expanded {
+    color: #111;
+    background: #eee;
+    border: 0.2em solid #bbb;
+    border-top: 0.2em solid #900;
+    border-left: 0.2em solid #900;
+    box-shadow: inset 1px 1px 3px #bbb;
+}
+
+div#dashboard ul {
+    border-top: none !important;
+}
+
+
+/* twiller_wrangling_mobile_device */
+
+
+#tag_wranglers-show .assigned.module th,
+#tag_wranglers-show tr,
+#tag_wranglers-show td {
+    padding: 1em .2em 1em .2em;
+}
+
+#tag_wranglers-show .assigned.module th[scope="col"],
+thead th[scope="col"] {
+    overflow: hidden;
+    padding: 0.2em .25em 0.25em 0.2em;
+    font-size: 80%;
+}
+
+#tag_wranglers-show .assigned.module thead th[rowspan="2"] {
+    max-width: 2.8em;
+}
+
+#wrangulator thead th:nth-child(6),
+#wrangulator td:nth-child(6),
+#wrangulator td:nth-child(3),
+#wrangulator th:nth-child(3) {
+    max-width: 2.75em;
+    padding: .15em .3em .15em;
+}
+
+#wrangulator tbody th {
+    max-width: 3em;
+}
+
+#wrangulator td:nth-child(5),
+#wrangulator th:nth-child(5),
+#wrangulator td:nth-child(4),
+#wrangulator th:nth-child(4) {
+    max-width: 1.6em;
+    padding: .15em .3em .15em;
+}
+
+#wrangulator td:nth-child(6),
+#wrangulator td:nth-child(5),
+#wrangulator td:nth-child(4),
+#wrangulator td:nth-child(3),
+#wrangulator th:nth-child(6),
+#wrangulator th:nth-child(5),
+#wrangulator th:nth-child(4),
+#wrangulator th:nth-child(3) {
+    font-size: 80%;
+    overflow: hidden;
+}
+
+#wrangulator tr th[scope^="col"]:nth-child(2),
+#wrangulator tr td[title^="canonical?"] {
+    display: none;
+}
+
+#wrangulator thead th ul.actions {
+    float: none;
+}
+
+#wrangulator ul.actions,
+#wrangulator p.actions,
+#wrangulator li.actions,
+#wrangulator span.actions,
+#wrangulator fieldset.actions,
+#wrangulator dd.actions {
+    padding: .429em .25em .25em 0;
+    float: unset;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#wrangulator input[id*="selected_tags_"],
+#wrangulator label[id*="selected_tags_"] {
+    vertical-align: middle;
+    margin-top: 0.1em;
+}
+
+#wrangulator input[type="radio"] + label,
+#wrangulator input[type="checkbox"] + label {
+    padding-left: 0.2em;
+}
+
+div#dashboard.tag.wrangling ul,
+div#dashboard.tag.wrangling ul:last-child {
+    border-top: none;
+    border-bottom: none;
+} 
